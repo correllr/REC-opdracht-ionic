@@ -2,13 +2,10 @@
   <ion-page>
     <toolbarHeader />
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Tab 4</ion-title>
-        </ion-toolbar>
-      </ion-header>
+      
 
       <mainHome name="Tab 4 page" />
+      
     </ion-content>
   </ion-page>
 </template>

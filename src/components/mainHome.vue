@@ -1,15 +1,11 @@
 <template>
-    <div>
-        <h1>Test - Staat dit op alle paginas?</h1>
-    </div>
+    <ion-content>
+      <h1>Test - Staat dit op alle paginas?</h1>
+    </ion-content>
 </template>
-<script lang="ts">
-export default {
-    
-}
+<script setup lang="ts">
+import { IonIcon, IonButtons, IonButton, IonTitle, IonToolbar, IonContent } from '@ionic/vue';
 </script>
 <style scoped>
-    h1 {
-        color: white;
-    }
+    
 </style>

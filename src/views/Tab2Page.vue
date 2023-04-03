@@ -2,19 +2,15 @@
   <ion-page>
     <toolbarHeader />
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Tab 2</ion-title>
-        </ion-toolbar>
-      </ion-header>
-
-      <mainHome name="Tab 2 page" />
+      
+      <uitgevoerd name="Tab 2 page" />
+      
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import mainHome from '@/components/mainHome.vue';
+import uitgevoerd from '@/components/Uitgevoerd.vue';
 import toolbarHeader from '@/components/toolbarHeader.vue';
 </script>
