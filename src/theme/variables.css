@@ -218,7 +218,17 @@ http://ionicframework.com/docs/theming/ */
   }
 }
 
-/** Gradient **/
+/** Gradient, font **/
 :root {
   --gradient: linear-gradient(90deg, var(--ion-color-secondary) 0%, var(--ion-color-tertiary) 20%);
+}
+
+:root[mode=ios] .mainFont,
+:root[mode=md] .mainFont {
+  --ion-font-family:  'Saira Condensed', sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+* {
+  font-family: 'Saira Condensed', sans-serif!important;
 }
