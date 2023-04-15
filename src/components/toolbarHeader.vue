@@ -6,24 +6,15 @@
             <ion-label class="mainFont">Real Estate Care</ion-label>
           </ion-button>
         </ion-buttons>
-        <!-- <ion-title color="primary">
-          <h1>
-            Real Estate Care
-          </h1>
-        </ion-title> -->
         
         <ion-buttons slot="end">
             <ion-button>
                 <ion-icon slot="icon-only" :icon="camera"></ion-icon>
-                <!-- <ion-label>Foto</ion-label> -->
             </ion-button>
           <ion-button>
-            <ion-icon slot="icon-only" :icon="personCircle"></ion-icon>
-            <!-- <ion-label>Log In</ion-label> -->
+            <ion-icon slot="icon-only" :icon="personCircle"></ion-icon>    
           </ion-button>
         </ion-buttons>
-        
-       
       </ion-toolbar>
 </template>
 
